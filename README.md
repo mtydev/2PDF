@@ -12,9 +12,14 @@ DocumentRoot i Directory na lokalizację folderu 2PDF. Dodatkowo należy dodać 
 AddHandler cgi-script .py
 ScriptInterpreterSource Registry-Strict
 ```
+Oprócz tego należy wprowadzić w każdej linijce pliku z rozszerzeniem .py ścieżkę Pythona
+```
+Przykład scieżki:
+#!C:\Users\kenno\AppData\Local\Programs\Python\Python38\python.exe
+```
 Po wpisaniu <b>localhost</b> w przeglądarce narzędzie będzie gotowe do pracy.
 
 # Wymagania
-- Python 3.0 +
+- Python 3.8 lub wyższy
 - Biblioteka pywin32
 - Microsoft Excel
