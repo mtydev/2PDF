@@ -23,3 +23,6 @@ Po wpisaniu <b>localhost</b> w przeglądarce narzędzie będzie gotowe do pracy.
 - Python 3.8 lub wyższy
 - Biblioteka pywin32
 - Microsoft Excel
+
+# Galieria
+<img src="1.png">
