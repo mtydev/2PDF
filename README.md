@@ -24,5 +24,5 @@ Po wpisaniu <b>localhost</b> w przeglądarce narzędzie będzie gotowe do pracy.
 - Biblioteka pywin32
 - Microsoft Excel
 
-# Galieria
+# Galeria
 <img src="1.png">
