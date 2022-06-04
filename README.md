@@ -1,5 +1,5 @@
 # 2PDF
-2PDF jest narzędziem umożliwiającym konwersję plików excela do PDF. Narzędzie to zostało stworzone przy użyciu pythona, JS i HTML.
+2PDF jest narzędziem umożliwiającym konwersję plików excela do PDF. Narzędzie to zostało stworzone przy użyciu Pythona, JS i HTML.
 PDF może być konwertowany dla danego pliku (poprzez podanie parametru w linku) lub dla wszystkich plików w folderze <b>Converter</b>.
 W przypadku konwersji dla danego pliku, PDF zostaje wyświetlany w przeglądarce po zakończeniu procesu konwersji. Narzędzie jest
 w stanie wygenerować wszystkie linki dla każdego pliku PDF w folderze <b>Converter</b> i zapisać je w pliku <i>links.txt</i>.
@@ -13,3 +13,8 @@ AddHandler cgi-script .py
 ScriptInterpreterSource Registry-Strict
 ```
 Po wpisaniu <b>localhost</b> w przeglądarce narzędzie będzie gotowe do pracy.
+
+# Wymagania
+- Python 3.0 +
+- Biblioteka pywin32
+- Microsoft Excel
