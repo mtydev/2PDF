@@ -11,5 +11,5 @@ DocumentRoot i Directory na lokalizację folderu 2PDF. Dodatkowo należy dodać 
 ``` 
 AddHandler cgi-script .py
 ScriptInterpreterSource Registry-Strict
-
 ```
+Po wpisaniu <b>localhost</b> w przeglądarce narzędzie będzie gotowe do pracy.
