@@ -28,4 +28,5 @@ Po wpisaniu <b>localhost</b> w przeglądarce narzędzie będzie gotowe do pracy.
 <div style="float: left;">
   <img src="1.png">
   <img src="2.png">
+  <img src="3.png">
 </div>
