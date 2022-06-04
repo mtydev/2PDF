@@ -13,7 +13,7 @@ def import_css():
         f'crossorigin="anonymous">')
 
 
-def generate_links(ip):
+def generate_links(ip: str):
     local_path = os.getcwd()
     path = local_path + r'/Converter/'
     os.chdir(path)
@@ -24,7 +24,7 @@ def generate_links(ip):
     open('links.txt', "w")
     for file in multiple_file_types("*.xlsx", "*.xlsm", "*.xls"):
         text_file = open('links.txt', "a")
-        text_file.write(f'{ip}/?filename={file}\n')
+        text_file.write(f'{ip}?filename={file}\n')
     import_css()
     print("Linki zostały wygenerowane")
 

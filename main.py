@@ -20,7 +20,9 @@ def import_css():
     print(
         f'<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" '
         f'integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" '
-        f'crossorigin="anonymous">')
+        f'crossorigin="anonymous"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'
+        f'"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script'
+        f'>')
 
 
 # Funkcja odpowiedzialna za otwieranie instancji excela z danym plikiem
