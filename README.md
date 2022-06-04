@@ -25,4 +25,7 @@ Po wpisaniu <b>localhost</b> w przeglądarce narzędzie będzie gotowe do pracy.
 - Microsoft Excel
 
 # Galeria
-<img src="1.png">
+<div style="float: left;">
+  <img src="1.png">
+  <img src="2.png">
+</div>
