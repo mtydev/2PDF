@@ -6,4 +6,10 @@ w stanie wygenerować wszystkie linki dla każdego pliku PDF w folderze <b>Conve
 Dodatkowo osoba zarządzająca tym narzędziem jest w stanie kontrolować to narzędzie używając controlpanelu znajdującego się w <b>index.html</b>
 
 # Działanie programu w XAMPP
+Aby 2PDF mógł działać w XAMPP trzeba folder o nazwie 2PDF umieścić w folderze htdocs. Następnie trzeba zmienić w ustawieniach Appache httpd.conf, zmieniając
+DocumentRoot i Directory na lokalizację folderu 2PDF. Dodatkowo należy dodać na końcu pliku poniższe linijki kodu:
+``` 
+AddHandler cgi-script .py
+ScriptInterpreterSource Registry-Strict
 
+```
