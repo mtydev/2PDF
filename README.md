@@ -1,4 +1,4 @@
-# 2PDF
+# 2PDF [No Longer Maintained]
 2PDF jest narzędziem umożliwiającym konwersję plików excela do PDF. Narzędzie to zostało stworzone przy użyciu Pythona, JS i HTML.
 PDF może być konwertowany dla danego pliku (poprzez podanie parametru w linku) lub dla wszystkich plików w folderze <b>Converter</b>.
 W przypadku konwersji dla danego pliku, PDF zostaje wyświetlany w przeglądarce po zakończeniu procesu konwersji. Narzędzie jest
